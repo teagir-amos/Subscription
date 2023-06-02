@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    font-family: consolas;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(./images/bg-top.svg),url(./images/bg-bottom.svg);
+    background-position: right top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+    background-color:hsl(240, 78%, 98%);
+    filter: opacity(70%);
+}
+.container1{
+    display: flex;
+    width: 100%;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+.container1 .sub{
+    display: flex;
+    flex-direction: row;
+}
+.container1 .sub img{
+    height: 23px;
+    width: 20px;
+    padding-bottom: 6px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.container1 .heading0{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: medium;
+}
+.container2 {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;  
+    justify-content: center;
+    gap: 3px;
+    padding-bottom: 20px;
+}
+
+.container2 .box1{
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    background: white; 
+    width:220px;
+
+}
+.container2 .box1:hover{
+    transform: translateY(-5%);
+    box-shadow: 3px 3px 2px 2px hsl(232, 13%, 33%);
+    transition: 0.3s ease;
+}
+.container2 .heading1{
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: hsl(232, 13%, 33%);
+}
+.container2 .price1{
+    padding-left: 50px;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+.container2 .description1{
+    padding: 15px;
+    color:hsl(232, 13%, 33%); 
+    font-weight: bold;
+}
+.container2 .storage1{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    text-align: center;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    
+}
+.container2 .users1{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.container2 .cast1{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    padding-left: 8px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.container2 .more1{
+    width: 190px;
+    background:blueviolet ;
+    text-align: center;
+    border-radius: 5px;
+    height: 25px;
+    
+}
+.container2 .Learn-More-button1{
+    border: none;
+    cursor: pointer;
+    padding-top: 6px;
+    color:white;
+    border: none;
+    background: blueviolet;
+    font-weight: bold;
+    font-size: medium;
+}
+.container2 .Learn-More-button1:hover,
+.container2 .Learn-More-button1:active{
+    background-color: hsl(232, 13%, 33%);
+    transition: 0.2s ease;
+}
+.container2 .box2{
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    background: blueviolet;
+    width: 220px;
+}
+.container2 .box2:hover{
+    transform: translateY(-5%);
+    box-shadow: 3px 3px 2px 2px hsl(232, 13%, 33%);
+    transition: 0.3s ease;
+}
+.container2 .heading2{
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    color:hsl(240, 78%, 98%);
+}
+.container2 .price2{
+    padding-left: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    color:hsl(240, 78%, 98%);
+
+}  
+.container2 .description2{
+    padding: 15px;
+    color:hsl(240, 78%, 98%);
+    font-weight: bold;
+}
+.container2 .storage2{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    text-align: center;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+.container2 .users2{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.container2 .cast2{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    padding-left: 8px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.container2 .more2{
+    width: 190px;
+    background:white ;
+    text-align: center;
+    border-radius: 5px;
+    height: 25px;
+    
+}
+.container2 .Learn-More-button2{
+    border: none;
+    cursor: pointer;
+    padding-top: 6px;
+    background: white;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.container2 .Learn-More-button2:hover,
+.container2 .Learn-More-button2:active{
+    background-color:whitesmoke;
+    transition: 0.2s ease;
+}
+
+.container2 .box3{
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    background: white;
+    width: 220px;
+}
+.container2 .box3:hover{
+    transform: translateY(-5%);
+    box-shadow: 3px 3px 2px 2px hsl(232, 13%, 33%);
+    transition: 0.3s ease;
+}
+.container2 .heading3{
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: hsl(232, 13%, 33%);
+}
+.container2 .price3{
+    padding-left: 50px;
+    font-weight: 900;
+    font-size: 30px;
+
+}  
+.container2 .description3{
+    padding: 15px;
+    color:hsl(232, 13%, 33%); 
+    font-weight: bold;
+}
+.container2 .storage3{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    text-align: center;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    
+}
+.container2 .users3{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.container2 .cast3{
+    width: 190px;
+    border-bottom:1px solid hsl(234, 14%, 74%);
+    padding-left: 8px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.container2 .more3{
+    width: 190px;
+    background:blueviolet ;
+    text-align: center;
+    border-radius: 5px;
+    height: 25px;
+}
+.container2 .Learn-More-button3{
+    border: none;
+    cursor: pointer;
+    padding-top: 6px;
+    background: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+.container2 .Learn-More-button3:hover,
+.container2 .Learn-More-button4:active{
+    background-color:hsl(232, 13%, 33%);
+    transition: 0.2s ease;
+}
+@media screen and (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
